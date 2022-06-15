@@ -29,5 +29,13 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    cout<<"";
+    cout<<"\n\n4.Pārtrauciet šī koda darbibu, kad saņemat pareizo atbildi vai vairs nav atlicis mēģinājums\nstring answer;\nint tries = 5;\nwhile(_________) {\ncin>> answer;\nif (answer == “the right answer”){\ncout<<“correct”<<endl;\n}\ntries -- ;\n}\n\na. tries>0\nb. 0>tries\nc. tries>=0\nd. tries==answer\n";
+    cin>>a4;
+    if(a4=="a"||a4=="b"){
+        punkti++;
+      cout<<"jus pareizi atbildejat uz jautajumu!";
+  }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
+    
 }
