@@ -21,6 +21,13 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    cout<<"\n\n3.ieraksti atbildi tukša vieta lai cikls nostradatu 3 reizes";
+    cout<<"\n\n3.ieraksti atbildi tukša vieta lai cikls nostradatu 3 reizes \nint t=0;\nwhile(_________) {\ncout<< “cikls!”;\nt++;\n}\n\na. t==3\nb. t<3 \nc. 3>t \nd. t+3\n";
     cin>>a3;
+    if(a3=="b"||a3=="c"){
+        punkti++;
+        cout<<"jus pareizi atbildejat uz jautajumu!";
+  }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
+    cout<<"";
 }
