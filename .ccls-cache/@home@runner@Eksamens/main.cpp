@@ -37,5 +37,12 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    
-}
+    cout<<"\n\n5.Aizpildiet tukšo vietu ar vajadzīgo rakstzīmi, lai izdrukātu paziņojumu.\na. <\nb. mazāka zīme\nc. lielāka zīme\nd. >\n";
+    cin>>a5;
+    if(a5=="a"||a5=="b"){
+        punkti++;
+        cout<<"jus pareizi atbildejat uz jautajumu!";
+  }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
+    }
