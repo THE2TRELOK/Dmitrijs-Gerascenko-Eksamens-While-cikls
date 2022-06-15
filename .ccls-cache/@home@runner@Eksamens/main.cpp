@@ -13,5 +13,14 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    
+    cout<<"\n\n2.cik reizes nostadas cikls? \nint a=1; \nint b=100; \nwhile (a<b) cout<<a<<\" \"<<b<<\"\\n\"; \na=a+2; \nb=b-3;\n\na. cikla nosacījums jau sākumā ir aplams! \nb. 0\nc. 2\nd. 3\n\n";
+  cin>>a2;
+  if(a2=="a"||a2=="b"){
+      punkti++;
+      cout<<"jus pareizi atbildejat uz jautajumu!";
+  }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
+    cout<<"\n\n3.ieraksti atbildi tukša vieta lai cikls nostradatu 3 reizes";
+    cin>>a3;
 }
