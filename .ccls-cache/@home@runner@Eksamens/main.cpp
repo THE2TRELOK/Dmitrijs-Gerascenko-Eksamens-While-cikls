@@ -45,4 +45,12 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
+    cout<<"\n\n6.Cik reizes izvadisies programma ja lietotajs ivadis skaitli 4?\nint i=0;\ncout<<\"ievadi skaitli\";\ncin>>i;\n while(i==4){\ncout<<\"porgramma\";\nbreak;\n}\na. 0 reizes, jo cikls darbojas, līdz i ir vienāda ar 4\nb. 4 reizes\nc. 1 reizi\nd. 1 reizi jo skaitīšana sākas no nulles\n";
+    cin>>a6;
+    if(a6=="c"||a6=="d"){
+        punkti++;
+        cout<<"jus pareizi atbildejat uz jautajumu!";
+  }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
     }
