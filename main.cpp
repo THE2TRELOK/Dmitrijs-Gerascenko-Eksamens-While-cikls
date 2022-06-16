@@ -77,4 +77,12 @@ int main() {
     }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
+    cout<<"\n\n10.ko izvadis ši programma?\nint main() {\nint a=5;\nwhile(a >= 3);\n{\ncout <<(\"labu\n\");\nbreak;\n}\ncout <<(\"dienu\");\nreturn 0;\n}\na. labu dienu\nb. while cikla ir kļuda\nc. tiks bezgalīgi izvadits labu dienu\nd. konsoles logā tiek parādīts kļūdas ziņojums";
+    cin>>a10;
+    if(a10=="b"||a10=="d"){
+        punkti++;
+        cout<<"jus pareizi atbildejat uz jautajumu!";
+    }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
     }

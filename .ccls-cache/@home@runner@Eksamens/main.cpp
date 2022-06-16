@@ -77,4 +77,5 @@ int main() {
     }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
+    cout<<"\n\n10.ko izvadis ši programma?\nint main() {\nint a=5;\nwhile(a >= 3);\n{\ncout <<(\"labu\n\");\nbreak;\n}\ncout <<(\"dienu\");\nreturn 0;\n}\na. labu dienu\nb. while cikla ir kļuda\nc. ";
     }
