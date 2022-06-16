@@ -61,4 +61,12 @@ int main() {
     }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
+    cout<<"\n\nVai var lietot string tipa mainigo cikla kā skaitītāju?\na. ja\nb. ja tas ir vienāds ar kaut ko\nc. ne\nd. var lietot int mainigo ka skaititaju\n";
+    cin>>a8;
+    if(a8=="c"||a8=="d"){
+        punkti++;
+        cout<<"jus pareizi atbildejat uz jautajumu!";
+    }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
     }
