@@ -53,4 +53,12 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
+    cout<<"\n\n7.ko izvadis šis kods?\nint skaitlis = 0;\nwhile(skaitlis <=100){\ncout<<skaitlis<<" ";\nskaitlis++;\n}\na. skaitļus no 0 lidz 100\nb. skaitli 100\nc. skaitļus no 0 lidz 99\nd. kopā 101 cipars";
+    cin>>a7;
+    if(a7=="a"||a7=="d"){
+        punkti++;
+             cout<<"jus pareizi atbildejat uz jautajumu!";
+    }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
     }
