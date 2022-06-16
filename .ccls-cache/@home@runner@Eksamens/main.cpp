@@ -13,7 +13,7 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    cout<<"\n\n2.cik reizes nostadas cikls? \nint a=1; \nint b=100; \nwhile (a<b) cout<<a<<\" \"<<b<<\"\\n\"; \na=a+2; \nb=b-3;\n\na. cikla nosacījums jau sākumā ir aplams! \nb. 0\nc. 2\nd. 3\n\n";
+    cout<<"\n\n2.cik reizes nostadas cikls? \nint a=1; \nint b=100; \nwhile (a<b) cout<<a<<\" \"<<b<<\"\\n\"; \na=a+2; \nb=b-3;\n\na. cikla nosacījums jau sākumā ir aplams! \nb. 0\nc. 2\nd. 3\n";
   cin>>a2;
   if(a2=="a"||a2=="b"){
       punkti++;
