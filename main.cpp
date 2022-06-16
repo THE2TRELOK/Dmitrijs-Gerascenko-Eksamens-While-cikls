@@ -53,7 +53,7 @@ int main() {
   }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    cout<<"\n\n7.ko izvadis šis kods?\nint skaitlis = 0;\nwhile(skaitlis <=100){\ncout<<skaitlis<<" ";\nskaitlis++;\n}\na. skaitļus no 0 lidz 100\nb. skaitli 100\nc. skaitļus no 0 lidz 99\nd. kopā 101 cipars";
+    cout<<"\n\n7.ko izvadis šis kods?\nint skaitlis = 0;\nwhile(skaitlis <=100){\ncout<<skaitlis<<" ";\nskaitlis++;\n}\na. skaitļus no 0 lidz 100\nb. skaitli 100\nc. skaitļus no 0 lidz 99\nd. kopā 101 cipars\n";
     cin>>a7;
     if(a7=="a"||a7=="d"){
         punkti++;
@@ -77,12 +77,49 @@ int main() {
     }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    cout<<"\n\n10.ko izvadis ši programma?\nint main() {\nint a=5;\nwhile(a >= 3);\n{\ncout <<(\"labu\n\");\nbreak;\n}\ncout <<(\"dienu\");\nreturn 0;\n}\na. labu dienu\nb. while cikla ir kļuda\nc. tiks bezgalīgi izvadits labu dienu\nd. konsoles logā tiek parādīts kļūdas ziņojums";
+    cout<<"\n\n10.ko izvadis ši programma?\nint main() {\nint a=5;\nwhile(a >= 3);\n{\ncout <<(\"labu\n\");\nbreak;\n}\ncout <<(\"dienu\");\nreturn 0;\n}\na. labu dienu\nb. while cikla ir kļuda\nc. tiks bezgalīgi izvadits labu dienu\nd. konsoles logā tiek parādīts kļūdas ziņojums\n";
     cin>>a10;
     if(a10=="b"||a10=="d"){
         punkti++;
         cout<<"jus pareizi atbildejat uz jautajumu!";
     }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }if(punkti!=10){
+    cout<<"\n\nJūsu pareizo atbildu skaits ir - "<<punkti;
+    cout<<"\nJūs atbildejat nepareizi uz šiem jautājumiem: \n";
+
+  if(a=="c"||a=="b"){
+    cout<<"\n1";
+  }
+  if(a2=="c"&&a2=="d"){
+    cout<<"\n2";
+  }
+  if(a3=="a"||a3=="d"){
+    cout<<"\n3";
+  }
+  if(a4=="c"||a4=="d"){
+    cout<<"\n4";
+  }
+  if(a5=="c"||a5=="d"){
+    cout<<"\n5";
+  }
+  if(a6=="b"||a6!="a"){
+    cout<<"\n6";
+  }
+  if(a7=="c"||a7=="b"){
+    cout<<"\n7";
+  }
+  if(a8=="b"||a8=="a"){
+    cout<<"\n8";
+  }
+  if(a9=="c"||a9=="d"){
+    cout<<"\n9";
+  }
+  if(a10=="a"||a10!="c"){
+    cout<<"\n10";
+  }
+    }
+  else{
+    cout<<"Visas atbildes ir pareizas!";
   }
     }
