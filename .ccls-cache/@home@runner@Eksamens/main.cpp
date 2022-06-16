@@ -61,9 +61,17 @@ int main() {
     }else{
       cout<<"jus nepareizi atbildejat uz jautajumu!";
   }
-    cout<<"\n\nVai var lietot string tipa mainigo cikla kā skaitītāju?\na. ja\nb. ja tas ir vienāds ar kaut ko\nc. ne\nd. var lietot int mainigo ka skaititaju\n";
+    cout<<"\n\n8.Vai var lietot string tipa mainigo cikla kā skaitītāju?\na. ja\nb. ja tas ir vienāds ar kaut ko\nc. ne\nd. var lietot int mainigo ka skaititaju\n";
     cin>>a8;
     if(a8=="c"||a8=="d"){
+        punkti++;
+        cout<<"jus pareizi atbildejat uz jautajumu!";
+    }else{
+      cout<<"jus nepareizi atbildejat uz jautajumu!";
+  }
+    cout<<"\n\n9.Kurš no šiem variantiem ir labākā struktūra spēles ciklam ar ierobežotu mēģinājumu skaitu?\na. int tries = 3;\n while( tries > 0 ) {\n tries --;\n }\nb.int tries = 3;\n while( 0 < tries ) {\n tries --;\n }\nc.string tries = \"3\";\nwhile( tries == \"3\" ) {\ntries - -;\n}\nd.bool tries = true;\nwhile( tries == false ) {\ntries = true;\n}\n";
+    cin>>a9;
+    if(a9=="a"||a9=="b"){
         punkti++;
         cout<<"jus pareizi atbildejat uz jautajumu!";
     }else{
